@@ -3,7 +3,7 @@
 
   var app = require('../app.js');
 
-  describe('GET', function(){
+  describe('GET', function(){   testing
     it('respond with json', function(done){
       request(app)
       .get('/')
